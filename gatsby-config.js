@@ -30,6 +30,17 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-react-bootstrap`,
+        short_name: `react-bootstrap`,
+        start_url: `/`,
+        background_color: `#20232a`,
+        theme_color: `#20232a`,
+        display: `minimal-ui`,
+      },
+    },
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
