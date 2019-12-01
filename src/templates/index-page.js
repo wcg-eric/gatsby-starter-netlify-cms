@@ -39,7 +39,7 @@ export const IndexPageTemplate = ({
                     display: 'inline-block',
                   }}
                 >
-                   
+                   Image
                 </div>
               </div>
             </div>
